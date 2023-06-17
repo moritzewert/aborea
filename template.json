@@ -1,0 +1,190 @@
+{
+    "Actor": {
+        "types": ["character", "npc"],
+        "templates": {
+            "attributes": {
+                "st": {
+                    "min": 1,
+                    "value": 1,
+                    "max": 14
+                },
+                "ge": {
+                    "min": 1,
+                    "value": 1,
+                    "max": 14
+                },
+                "ko": {
+                    "min": 1,
+                    "value": 1,
+                    "max": 14
+                },
+                "in": {
+                    "min": 1,
+                    "value": 1,
+                    "max": 14
+                },
+                "ch": {
+                    "min": 1,
+                    "value": 1,
+                    "max": 14
+                }
+            },
+            "resources": {
+                "health": {
+                    "min": 0,
+                    "value": 1
+                },
+                "magic": {
+                    "min": 0,
+                    "value": 0
+                }
+            },
+            "abilities": {
+                "athletics": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "influence": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "targetet_spells": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "arts": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "arts_specification": "",
+                "cunning": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "control_magic": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "nature": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "riding": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "swimming": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "spells1": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "spells1_specification": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "spells2": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "spells2_specification": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "spells3": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "spells3_specification": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "weapons1": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "weapons1_specification": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "weapons2": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "weapons2_specification": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "weapons3": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "weapons3_specification": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "perception": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "knowledge1": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "knowledge1_specification": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "knowledge2": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "knowledge2_specification": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "knowledge3": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                },
+                "knowledge3_specification": {
+                    "min": 0,
+                    "value": 0,
+                    "max": 23
+                }
+            }
+        }
+    },
+    "character": {
+        "templates": ["attributes", "resources", "abilities"]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": "aborea",
+    "title": "Aborea",
+    "description": "A system for playing Aborea in Foundry VTT",
+    "version": "0.0.1",
+    "compatibility": {
+        "minimum": 10,
+        "verified": 11,
+        "maximum": 11
+    },
+    "authors": [
+        {
+            "name": "Moritz Ewert",
+            "url": "moritzewert.me",
+            "email": "hello@moritzewert.me"
+        }
+    ],
+    "url": "https://github.com/moritzewert/aborea",
+    "manifest": "https://raw.githubusercontent.com/moritzewert/aborea/main/system.json",
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        },
+        {
+            "lang": "de",
+            "name": "Deutsch",
+            "path": "lang/de.json"
+        }
+    ],
+    "primaryTokenAttribute": "resources.health",
+    "secondaryTokenAttribute": "resources.magic"
+}
